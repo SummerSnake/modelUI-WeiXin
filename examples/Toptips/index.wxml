@@ -1,0 +1,14 @@
+<import src="/dist/toptips/index.wxml" />
+
+<view class="container">
+
+  <view class="doc_title">Toptips</view>
+
+  <view class="model_btns" style="margin-top: 30vh;">
+    <button class="model_btn" bindtap="showTopTips">
+      显示toptips
+    </button>
+  </view>
+</view>
+
+<template is="model_toptips" data="{{ modelTopTips }}"></template>

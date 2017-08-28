@@ -1,0 +1,16 @@
+<view class="container">
+
+  <view class="doc_title">Dropdown</view>
+
+  <view class="model_dropdown" bindtap="itemShow">
+    <view class="placeholder">{{model_ph}}</view>
+  </view>
+
+  <view class="model_dropdown_box">
+    <view class="model_dropdown_box_items" hidden="{{selectItem}}">
+      <view class="select_item" bindtap="nowSelect" data-now="山东省">山东省</view>
+      <view class="select_item" bindtap="nowSelect" data-now="淄博市">淄博市</view>
+      <view class="select_item" bindtap="nowSelect" data-now="毛豆科技">毛豆科技</view>
+    </view>
+  </view>
+</view>

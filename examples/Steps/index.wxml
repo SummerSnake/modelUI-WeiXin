@@ -1,0 +1,70 @@
+<import src="/dist/steps/index.wxml" />
+
+<view class="container">
+
+  <view class="doc_title">Steps</view>
+
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', steps: steps }}"></template>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', steps: steps2 }}"></template>
+      </view>
+    </view>
+
+    <view class="model_cell model_cell_last_child">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', steps: steps3 }}"></template>
+      </view>
+    </view>
+  </view>
+
+  <view class="model_panel_title">有描述的steps</view>
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', hasDesc: true, steps: steps }}"></template>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', hasDesc: true, steps: steps2 }}"></template>
+      </view>
+    </view>
+
+    <view class="model_cell model_cell_last_child">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'horizon', hasDesc: true, steps: steps3 }}"></template>
+      </view>
+    </view>
+  </view>
+
+  <view class="model_panel_title">垂直方向的steps</view>
+  <view class="model_panel">
+    <view class="model_cell model_cell">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'vertical', hasDesc: true, steps }}"></template>
+      </view>
+    </view>
+
+    <view class="model_cell model_cell_last_child">
+      <view class="model_cell_bd">
+        <template is="model_steps" data="{{ type: 'vertical', steps }}"></template>
+      </view>
+    </view>
+  </view>
+
+  <view class="model_panel_title">可自定义class</view>
+  <view class="model_panel">
+    <view class="model_cell_bd">
+      <template is="model_steps" data="{{ type: 'vertical', steps, className: 'my-class' }}"></template>
+    </view>
+  </view>
+
+</view>

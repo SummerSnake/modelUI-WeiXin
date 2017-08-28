@@ -1,0 +1,29 @@
+<view class="container">
+
+  <view class="doc_title">SwiperTab</view>
+  <!-- tabs -->
+  <view wx:if="{{model_swiperTab_config.fixed}}" class="model_swiperTab">
+    <view wx:for="{{model_swiperTab_config.tabs}}" wx:key="unique" data-index="{{index}}" bindtap="handlerTabTap" class="tab {{model_swiperTab_config.active_tab==index?'tab_active':''}} " style="width: {{model_swiperTab_config.item_width}}px;">
+      <text>{{item}}</text>
+    </view>
+    <view style="width: {{model_swiperTab_config.item_width}}px; left: {{model_swiperTab_config.underline.offset}}px;" class="under_line withAnimate"></view>
+  </view>
+  <scroll-view wx:else class="model_swiperTab" scroll-x="true" bindscroll="onScroll" style="width: 100%;" scroll-left="{{model_swiperTab_config.tab_left}}">
+    <view wx:for="{{model_swiperTab_config.tabs}}" wx:key="unique" data-index="{{index}}" bindtap="handlerTabTap" class="tab {{model_swiperTab_config.active_tab==index?'tab_active':''}} " style="width: {{model_swiperTab_config.item_width}}px;">
+      <text>{{item}}</text>
+    </view>
+    <view style="width: {{model_swiperTab_config.item_width}}px; left: {{model_swiperTab_config.underline.offset}}px;" class="under_line withAnimate"></view>
+  </scroll-view>
+  <!-- tabs end -->
+  <!-- tab panel -->
+  <view class="model_swiperTab_page">
+    <swiper class="model_swiperTab_swiper" indicator-dots="{{swiper_config.indicator_dots}}" autoplay="{{swiper_config.autoplay}}" interval="{{swiper_config.interval}}" duration="{{swiper_config.duration}}" current="{{swiper_config.current}}" bindchange="swiperChange">
+      <block wx:for="{{swiper_config.swipes}}">
+        <swiper-item style="height:500rpx;">
+          <view class="swiper_item {{item}}"></view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- tab panel end -->
+</view>

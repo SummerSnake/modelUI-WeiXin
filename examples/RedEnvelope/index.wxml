@@ -1,0 +1,24 @@
+<view class="container">
+
+  <view class="doc_title">RedEnvelope</view>
+
+  <view class="model_redItem" id="redItem">
+    <view class="model_redItemW model_flex">
+      <view class="model_redItemL model_flex_item">
+        <view class="model_redItemTit">新用户红包</view>
+        <view class="model_redItemDate">有效期至2017.09.09</view>
+      </view>
+      <view class="model_redItemR model_flex_item">
+        <view>
+          <view class="model_redItemR_sign">￥</view>
+          <view class="model_redItemR_num">15</view>
+        </view>
+        <view class="model_redItemR_full">满15可用</view>
+      </view>
+    </view>
+    <view class="model_redItemB">仅限1888888888使用</view>
+    <view class="circle1 circle"></view>
+    <view class="circle2 circle"></view>
+    <view class="triangle" id="triangle"></view>
+  </view>
+</view>

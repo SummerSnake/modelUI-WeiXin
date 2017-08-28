@@ -1,0 +1,17 @@
+<view class="container">
+
+  <view class="doc_title">Icon</view>
+
+  <view class="model_panel">
+    <view wx:for="{{ icons }}" wx:for-item="icon" class="icon_wrap">
+      <view class="model_icon model_icon_{{ icon }}" style="font-size: 20px; color: #ff4343;"></view>
+      <view class="icon_classname">model_icon_{{ icon }}</view>
+    </view>
+  </view>
+  <view class="model_panel" style="margin-bottom: 40px;">
+    <view wx:for="{{ icons }}" wx:for-item="icon" class="icon_wrap">
+      <view class="model_icon model_icon_{{ icon }}" style="font-size: 40px;"></view>
+      <view class="icon_classname">model_icon_{{ icon }}</view>
+    </view>
+  </view>
+</view>

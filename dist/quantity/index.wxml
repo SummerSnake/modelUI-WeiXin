@@ -1,0 +1,28 @@
+<template name="model_quantity">
+  <view class="model_quantity {{ size === 'small' ? 'model_quantity_small' : '' }}">
+    <view
+      class="model_quantity_minus {{ quantity <= min ? 'model_quantity_disabled' : '' }}"
+      data-component-id="{{ componentId }}"
+      data-quantity="{{ quantity }}"
+      data-disabled="{{ quantity <= min }}"
+      bindtap="_handleModelQuantityMinus"
+    >-</view>
+    <input
+      class="model_quantity_text {{ min >= max ? 'model_quantity_disabled' : '' }}"
+      type="number"
+      data-component-id="{{ componentId }}"
+      data-min="{{ min }}"
+      data-max="{{ max }}"
+      value="{{ quantity }}"
+      disabled="{{ min >= max }}"
+      bindblur="_handleModelQuantityBlur"
+    ></input>
+    <view
+      class="model_quantity_plus {{ quantity >= max ? 'model_quantity_disabled' : '' }}"
+      data-component-id="{{ componentId }}"
+      data-quantity="{{ quantity }}"
+      data-disabled="{{ quantity >= max }}"
+      bindtap="_handleModelQuantityPlus"
+    >+</view>
+  </view>
+</template>

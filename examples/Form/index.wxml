@@ -1,0 +1,37 @@
+<view class="container">
+
+  <view class="doc_title">Form</view>
+
+  <view class="model_form">
+    <view class="model_cell model_form_item">
+      <text class="model_form_title">收货人</text>
+      <input
+        class="model_form_input model_cell_bd"
+        placeholder="名字"
+      />
+    </view>
+    <view class="model_cell model_form_item">
+      <text class="model_form_title">联系电话</text>
+      <input
+        class="model_form_input model_cell_bd"
+        type="number"
+        maxlength="20"
+        placeholder="手机或固定电话"
+      />
+    </view>
+    <view class="model_cell model_form_item model_cell_last_child">
+      <text class="model_form_title">选择区域</text>
+      <view class="model_form_input model_cell_bd">
+        <picker
+          mode="selector"
+          range="{{ area }}"
+          value="{{ areaIndex }}"
+          bindchange="onAreaChange"
+        >
+          {{ area[areaIndex] }}
+        </picker>
+      </view>
+    </view>
+  </view>
+
+</view>

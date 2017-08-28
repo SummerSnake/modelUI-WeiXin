@@ -1,0 +1,25 @@
+<view class="container">
+
+  <view class="doc_title">Label</view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_last_child">
+      <view class="model_label">蓝色</view>
+      <view class="model_label model_label_primary">红色</view>
+      <view class="model_label model_label_disabled">黑色</view>
+    </view>
+  </view>
+  <view class="model_panel">
+    <view class="model_cell model_cell_last-child">
+      <view class="model_label model_label_primary model_label_small">会员折扣</view>
+      <view class="model_label model_label_primary model_label_small">返现</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_last-child">
+      <view class="model_label model_label_primary model_label_small model_label_plain">会员折扣</view>
+      <view class="model_label model_label_primary model_label_small model_label_plain">返现</view>
+    </view>
+  </view>
+</view>

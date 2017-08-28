@@ -1,0 +1,27 @@
+<view class="" container>
+
+  <view class="doc_title">Progress</view>
+
+  <view class="model_progress">
+    <view class="model_progress_bar">
+      <view class="model_progress_inner_bar {{isAnim?'anim':''}}" style="width:0;"></view>
+    </view>
+    <view class="model_progress_close model_icon model_icon_close" bindtap="animRe"></view>
+  </view>
+
+  <view class="model_progress">
+    <view class="model_progress_bar">
+      <view class="model_progress_inner_bar {{isAnim?'anim':''}}" style="width:50%;"></view>
+    </view>
+    <view class="model_progress_close model_icon model_icon_close"></view>
+  </view>
+
+  <view class="model_progress">
+    <view class="model_progress_bar">
+      <view class="model_progress_inner_bar {{isAnim?'anim':''}}" style="width:100%;"></view>
+    </view>
+    <view class="model_progress_close model_icon model_icon_close"></view>
+  </view>
+
+  <view class="model_btn model_btn_primary" bindtap="animGo" style="margin:0 40rpx;">上传</view>
+</view>

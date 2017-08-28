@@ -1,0 +1,22 @@
+{
+  "name": "modelUI",
+  "version": "0.0.1",
+  "description": "小程序UI库——毛豆科技",
+  "main": "app.js",
+  "directories": {
+    "examples": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "李岩——技术部——毛豆科技",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

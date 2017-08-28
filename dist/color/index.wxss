@@ -1,0 +1,27 @@
+.model_c_red {
+  color: #f44 !important;
+}
+
+.model_c_gray {
+  color: #c9c9c9 !important;
+}
+
+.model_c_gray_dark {
+  color: #999 !important;
+}
+
+.model_c_gray_darker {
+  color: #666 !important;
+}
+
+.model_c_black {
+  color: #333 !important;
+}
+
+.model_c_blue {
+  color: #3283fa !important;
+}
+
+.model_c_green {
+  color: #4b0 !important;
+}

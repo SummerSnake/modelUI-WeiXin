@@ -1,0 +1,157 @@
+/* btn.wxss */
+
+.model_btn {
+  position: relative;
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  border: 1rpx solid #e5e5e5;
+  font-size: 16px;
+  line-height: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.model_btn::after {
+  display: none;
+}
+
+.model_btns {
+  margin: 15px;
+}
+
+/* type */
+
+.model_btn_primary {
+  color: #fff;
+  background-color: #4b0;
+  border-color: #0a0;
+}
+
+.model_btn_warn {
+  color: #fff;
+  background-color: #f85;
+  border-color: #f85;
+}
+
+.model_btn_danger {
+  color: #fff;
+  background-color: #f44;
+  border-color: #e33;
+}
+
+/* size */
+
+.model_btn_small {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.model_btn_mini {
+  display: inline-block;
+  line-height: 21px;
+  height: 22px;
+  font-size: 10px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.model_btn_large {
+  border-radius: 0;
+  margin-bottom: 0;
+  border: none;
+  line-height: 50px;
+  height: 50px;
+}
+
+/* plain */
+
+.model_btn_plain.model_btn {
+  background-color: transparent;
+}
+
+.model_btn_plain.model_btn_primary {
+  color: #06bf04;
+}
+
+.model_btn_plain.model_btn_warn {
+  color: #f60;
+}
+
+.model_btn_plain.model_btn_danger {
+  color: #f44;
+}
+
+/* 重写button组件的button-hover样式 */
+
+.button_hover {
+  opacity: 0.9;
+}
+
+/* loading */
+
+.model_btn_loading {
+  color: transparent;
+  opacity: 1;
+}
+
+.model_btn_loading::before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: ' ';
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  border: 3px solid #e5e5e5;
+  border-color: #666 #e5e5e5 #e5e5e5 #e5e5e5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  animation: btn-spin 0.6s linear;
+  animation-iteration-count: infinite;
+}
+
+.model_btn_primary.model_btn_loading::before,
+.model_btn_warn.model_btn_loading::before,
+.model_btn_danger.model_btn_loading::before {
+  border-color: #fff rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+}
+
+@keyframes btn-spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.model_btn.model_btn_disabled {
+  /* 防止样式被 button[disabled] 的规则覆盖，所以使用了important */
+  color: #999 !important;
+  background: #f8f8f8 !important;
+  border-color: #e5e5e5 !important;
+  cursor: not-allowed !important;
+  opacity: 1 !important;
+}
+
+/* :last-child */
+
+.model_btn_last_child, .model_btn:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}

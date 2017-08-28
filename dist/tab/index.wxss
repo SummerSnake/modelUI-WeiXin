@@ -1,0 +1,48 @@
+.model_tab {
+  height: 45px;
+}
+.model_tab_bd {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #e5e5e5;
+  background: #fff;
+}
+.model_tab_bd_fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.model_tab_item {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.model_tab_title {
+  font-size: 14px;
+  display: inline-block;
+  color: #666;
+  height: 44px;
+  line-height: 44px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  word-break: keep-all;
+}
+
+.model_tab_item_selected .model_tab_title {
+  color: #f44;
+  border-bottom: 2px solid #f44;
+}
+
+.model_tab_bd_scroll {
+  display: block;
+  white-space: nowrap;
+}
+.model_tab_bd_scroll .model_tab_item {
+  min-width: 80px;
+}
+.model_tab_bd_scroll .model_tab_text {
+  margin: 0 20px;
+}

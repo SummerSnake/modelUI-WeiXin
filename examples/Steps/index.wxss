@@ -1,0 +1,7 @@
+.my-class {
+  padding: 10px;
+}
+
+.my-class .mode_steps_step_done {
+  color: #f44;
+}

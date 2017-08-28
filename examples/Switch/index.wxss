@@ -1,0 +1,7 @@
+.model_panel {
+  padding: 10px;
+}
+
+.model_switch {
+  margin-right: 8px;
+}

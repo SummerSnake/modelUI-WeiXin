@@ -1,0 +1,6 @@
+@import "wxss/step.wxss";
+@import "wxss/vstep.wxss";
+
+.model_steps {
+  position: relative;
+}

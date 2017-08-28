@@ -1,0 +1,4 @@
+<template name="model_toptips">
+  <view class="model_toptips {{ modelTopTips.show ? 'model_toptips_show' : '' }}">
+  {{ modelTopTips.content }}</view>
+</template>

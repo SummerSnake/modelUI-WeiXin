@@ -1,0 +1,34 @@
+<!-- card.wxml -->
+
+<view class="container">
+
+  <view class="doc_title">Card</view>
+
+  <view class="model_panel">
+    <view class="model_card">
+      <view class="model_card_thumb">
+        <image class="model_card_img" src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg" mode="aspectFit"></image>
+      </view>
+      <view class="model_card_detail">
+        <view class="model_card_detail_row">
+          <view class="model_card_right_col">¥ 999.99</view>
+          <view class="model_card_left_col model_ellipsis_l2">
+            红烧牛肉【虚拟商品】【有库存】【有sku】
+          </view>
+        </view>
+
+        <view class="model_card_detail_row model_c_gray_darker">
+          <view class="model_card_right_col">x2</view>
+          <view class="model_card_left_col">
+            3000克 50%
+          </view>
+        </view>
+
+        <view class="model_card_detail_row model_c_gray_darker">
+          <view class="model_card_left_col model_c_red">已发货</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,102 @@
+<!-- cell.wxml -->
+
+<import src="/dist/switch/index.wxml" />
+
+<view class="container">
+
+  <view class="doc_title">Cell</view>
+
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">单行列表</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">单行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">单行列表</view>
+      <view class="model_cell_ft"></view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_switch">
+      <view class="model_cell_bd">开关</view>
+      <view class="model_cell_ft">
+        <template is="model_switch" data="{{ checked }}" />
+      </view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">单行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+    </view>
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+    </view>
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+    <view class="model_cell">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft"></view>
+    </view>
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft"></view>
+    </view>
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft"></view>
+    </view>
+  </view>
+
+  <view class="model_panel">
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+    <view class="model_cell model_cell_access">
+      <view class="model_cell_bd">多行列表</view>
+      <view class="model_cell_ft">详细信息</view>
+    </view>
+  </view>
+
+</view>

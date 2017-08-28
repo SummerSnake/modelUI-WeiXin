@@ -1,0 +1,38 @@
+.model_form {
+  background-color: #fff;
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.model_form_item {
+  line-height: 26px;
+}
+
+.model_form_title {
+  float: left;
+  width: 80px;
+  font-size: 14px;
+}
+
+.model_form_title_top {
+  align-self: flex-start;
+}
+
+.model_form_input, .model_form_textarea {
+  min-height: 26px;
+}
+
+.model_form_input input {
+  min-height: 26px;
+}
+
+.model_form_textarea {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.model_form_textarea textarea {
+  width: auto;
+  flex: 1;
+}

@@ -1,0 +1,38 @@
+.model_progress {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  margin: 40rpx 40rpx;
+}
+
+.model_progress_bar {
+  background-color: #ebebeb;
+  height: 3px;
+  flex: 1;
+  -webkit-box-flex: 1;
+}
+
+.model_progress_inner_bar {
+  height: 100%;
+  background-color: #09bb07;
+}
+
+.anim {
+  animation: bar_increase 5s linear;
+}
+
+.model_progress_close {
+  display: inline-block;
+  margin-left: 30rpx;
+  color: #f00;
+}
+
+@keyframes bar_increase {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+/* badge.wxss */
+
+.demo {
+  padding: 40px 0;
+  display: flex;
+}
+
+.demo_item {
+  flex: 1;
+}
+
+.demo_icon {
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+  background: #ddd;
+  border-radius: 4px;
+}

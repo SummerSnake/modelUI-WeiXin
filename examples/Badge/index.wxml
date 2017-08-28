@@ -1,0 +1,28 @@
+<!-- badge.wxml -->
+
+<view class="container">
+
+  <view class="doc_title">Badge</view>
+
+  <view class="demo">
+    <view class="demo_item">
+      <view class="demo_icon model_badge">
+      </view>
+    </view>
+    <view class="demo_item">
+      <view class="demo_icon model_badge">
+        <view class="model_badge_count">9</view>
+      </view>
+    </view>
+    <view class="demo_item">
+      <view class="demo_icon model_badge">
+        <view class="model_badge_count">19</view>
+      </view>
+    </view>
+    <view class="demo_item">
+      <view class="demo_icon model_badge">
+        <view class="model_badge_count">99+</view>
+      </view>
+    </view>
+  </view>
+</view>

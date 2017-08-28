@@ -1,0 +1,13 @@
+<view class="container">
+
+  <view class="doc_title">Swiper</view>
+  
+      <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" vertical="{{vertical}}" circular="{{circular}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <!-- 图片最佳：宽355，高150，其余尺寸会被拉伸至此尺寸。 -->
+            <image src="{{item}}" class="model_swiper_image" width="355" height="150" />
+          </swiper-item>
+        </block>
+      </swiper>
+</view>

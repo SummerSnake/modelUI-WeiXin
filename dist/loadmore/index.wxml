@@ -1,0 +1,24 @@
+<template name="model_loadmore">
+
+  <block wx:if="{{nomore}}">
+    <view class="model_loadmore model_loadmore_nomore">
+      <view class="model_loadmore_tips">
+        <view class="model_loadmore_dot"></view>
+      </view>
+    </view>
+  </block>
+
+  <block wx:elif="{{nodata}}">
+    <view class="model_loadmore model_loadmore_nodata">
+      <view class="model_loadmore_tips">{{ nodata_str || '暂无数据' }}</view>
+    </view>
+  </block>
+
+  <block wx:elif="{{loading}}">
+    <view class="model_loadmore">
+      <view class="model_loading"></view>
+      <view class="model_loadmore_tips">加载中...</view>
+    </view>
+  </block>
+
+</template>

@@ -1,0 +1,52 @@
+<view class="container">
+  <view class="doc_title">Flex</view>
+  <view class="model_flex">
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+  </view>
+  <view class="model_flex">
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+  </view>
+  <view class="model_flex">
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+  </view>
+  <view class="model_flex">
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+  </view>
+  <view class="model_flex">
+    <view>
+      <view class="placeholder">model</view>
+    </view>
+    <view class="model_flex_item">
+      <view class="placeholder">model</view>
+    </view>
+    <view>
+      <view class="placeholder">model</view>
+    </view>
+  </view>
+</view>

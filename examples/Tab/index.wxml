@@ -1,0 +1,16 @@
+<import src="/dist/tab/index.wxml" />
+
+<view class="container">
+
+  <view class="doc_title">Tab</view>
+
+  <view style="margin: 20px 0">
+    <template is="model_tab" data="{{tab: tab1, componentId: 'tab1'}}"></template>
+  </view>
+  <view style="margin: 20px 0">
+    <template is="model_tab" data="{{tab: tab2, componentId: 'tab2'}}"></template>
+  </view>
+  <view style="margin: 20px 0">
+    <template is="model_tab" data="{{tab: tab3, componentId: 'tab3'}}"></template>
+  </view>
+</view>

@@ -1,0 +1,62 @@
+/* model_swiperTab */
+
+.withAnimate {
+  transition: all 200ms ease-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+}
+
+.model_swiperTab {
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  font-size: 15px;
+  color: #666;
+  height: 42px;
+}
+
+.model_swiperTab .tab {
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+.model_swiperTab .tab_active {
+  color: #2d80ff;
+}
+
+.model_swiperTab .under_line {
+  position: absolute;
+  height: 3px;
+  background-color: #2d80ff;
+}
+
+/*tab bar end*/
+
+/*swiper*/
+
+.model_swiperTab_page {
+  padding: 0;
+}
+
+.model_swiperTab_swiper {
+  height: calc(100vh - 42px);
+}
+
+.swiper_item {
+  display: block;
+  height: calc(100vh - 42px);
+}
+
+/*swiper end*/

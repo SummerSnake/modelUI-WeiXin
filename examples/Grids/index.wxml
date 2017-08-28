@@ -1,0 +1,15 @@
+<view class="container">
+
+  <view class="doc_title">Grid</view>
+
+  <view class="model_grid">
+    <block wx:for="{{list}}">
+      <navigator url="{{item.url}}">
+        <view class="model_grid_item">
+          <image src="{{item.imgSrc}}" class="model_grid_img"></image>
+          <text class="model_grid_txt">{{item.name}}</text>
+        </view>
+      </navigator>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,74 @@
+<view class="container">
+  <view class="doc_title">Helper</view>
+  <view class="model_panel">
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view class="model_pull_right">model_pull_right: 往右靠</view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view class="model_text_deleted">model_text_deleted：被删除的效果</view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view>
+          <view class="model_font_12">model_font_12：字号12</view>
+          <view class="model_font_12 model_font_bold">model_font_bold：再来个加粗</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view>
+          <view class="model_font_16">model_font_16：字号16</view>
+          <view class="model_font_16 model_font_bold">model_font_bold：再来个加粗</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view class="">
+          <view>字体颜色</view>
+          <view class="model_c_red">model_c_red: 红色</view>
+          <view class="model_c_gray">model_c_gray: 灰色</view>
+          <view class="model_c_gray-dark">model_c_gray_dark: 再灰一点点</view>
+          <view class="model_c_gray-darker">model_c_gray_darker: 更深的灰色</view>
+          <view class="model_c_black">model_c_black: 黑色</view>
+          <view class="model_c_blue">model_c_blue: 蓝色</view>
+          <view class="model_c_green">model_c_green: 绿色</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view>model_arrow：箭头</view>
+        <view class="model_arrow"></view>
+      </view>
+    </view>
+
+    <view class="model_cell">
+      <view class="model_cell_bd">
+        <view class="model_ellipsis" style="width: 300px;">
+          model_ellipsis：单行点点点 ->我是占位的字符我是占位的字符我是占位的字符我是占位的字符我是占位的字符我是占位的字符
+        </view>
+      </view>
+    </view>
+
+    <view class="model_cell model_cell_last_child">
+      <view class="model_cell_bd">
+        <view class="model_ellipsis_l2">
+          model_ellipsis_l2：单行点点点 ->我是占位的字符我是占位的字符我是占位的字符我是占位的字符我是占位的字符我是占位的字符
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

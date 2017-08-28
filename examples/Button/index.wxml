@@ -1,0 +1,58 @@
+<!-- btn.wxml -->
+
+<view class="container">
+
+  <view class="doc_title">Button</view>
+
+  <view class="model_panel_title">普通按钮</view>
+  <view class="model_panel">
+    <view class="model_btns">
+      <button class="model_btn">取消订单</button>
+      <button class="model_btn model_btn_primary">确认付款</button>
+      <button class="model_btn model_btn_danger">确认付款</button>
+      <button class="model_btn model_btn_warn">确认付款</button>
+    </view>
+  </view>
+
+  <view class="model_panel_title">大号按钮，没有边框线及圆角</view>
+  <view class="model_panel">
+    <button class="model_btn model_btn_large model_btn_primary">确认付款</button>
+    <button class="model_btn model_btn_large model_btn_warn">立即购买</button>
+    <button class="model_btn model_btn_large model_btn_danger">立即购买</button>
+  </view>
+
+  <view class="model_panel_title">小号按钮</view>
+  <view class="model_panel" style="padding: 15px;">
+    <button class="model_btn model_btn_small">取消订单</button>
+    <button class="model_btn model_btn_small model_btn_primary">确认付款</button>
+  </view>
+
+  <view class="model_panel_title">迷你按钮</view>
+  <view class="model_panel" style="padding: 15px;">
+    <button class="model_btn model_btn_mini model_btn_plain">取消订单</button>
+    <button class="model_btn model_btn_mini model_btn_primary model_btn_plain">确认付款</button>
+    <button class="model_btn model_btn_mini model_btn_warn model_btn_plain">确认付款</button>
+    <button class="model_btn model_btn_mini model_btn_danger model_btn_plain">确认付款</button>
+  </view>
+
+  <view class="model_panel_title">Loading</view>
+  <view class="model_panel">
+    <view class="model_btns">
+      <button class="model_btn model_btn_loading">取消订单</button>
+      <button class="model_btn model_btn_loading model_btn_primary">确认付款</button>
+      <button class="model_btn model_btn_loading model_btn_danger">确认付款</button>
+      <button class="model_btn model_btn_loading model_btn_warn">确认付款</button>
+    </view>
+  </view>
+
+  <view class="model_panel_title">Disabled</view>
+  <view class="model_panel">
+    <view class="model_btns">
+      <button class="model_btn model_btn_disabled" disabled>取消订单</button>
+      <button class="model_btn model_btn_disabled model_btn_primary" disabled>确认付款</button>
+      <button class="model_btn model_btn_disabled model_btn_danger" disabled>确认付款</button>
+      <button class="model_btn model_btn_disabled model_btn_warn" disabled>确认付款</button>
+    </view>
+  </view>
+
+</view>

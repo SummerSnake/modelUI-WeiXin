@@ -1,0 +1,150 @@
+.model_page_bd {
+  padding: 0 15px 40px;
+}
+
+.kind_list_item {
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.kind_list_item:first-child {
+  margin-top: 0;
+}
+
+.kind_list_img {
+  width: 30px;
+  height: 30px;
+}
+
+.kind_list_item_hd {
+  padding: 20px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.kind_list_item_hd_show {
+  opacity: 0.4;
+}
+
+.kind_list_item_bd {
+  height: 0;
+  overflow: hidden;
+}
+
+.kind_list_item_bd_show {
+  height: auto;
+}
+
+.collapse_flex {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.collapse_cells {
+  margin-top: 0;
+  opacity: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  background-color: #fff;
+  font-size: 17px;
+}
+
+.collapse_cells:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+}
+
+.collapse_cells:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+}
+
+.collapse_cells_show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.collapse_cell:before {
+  right: 15px;
+}
+
+.collapse_cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.collapse_cell:before {
+  right: 15px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 1px;
+  border-top: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+}
+
+.collapse_cell_access {
+  color: inherit;
+}
+
+.collapse_cell_ft {
+  text-align: right;
+  color: #999;
+}
+
+.collapse_cell_ft_in_access {
+  padding-right: 13px;
+  position: relative;
+}
+
+.collapse_cell_ft_in_access:after {
+  content: " ";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #c8c8cd;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  top: -2px;
+  position: absolute;
+  margin-top: -4px;
+  right: 2px;
+}
+
+.logo {
+  display: block;
+  margin: 40px auto;
+  width: 115px;
+  height: 120px;
+  border-radius: 5%;
+}

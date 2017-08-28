@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "examples/Collapse/index",
+    "examples/Badge/index",
+    "examples/Button/index",
+    "examples/Cell/index",
+    "examples/Card/index",
+    "examples/Dialog/index",
+    "examples/Dropdown/index",
+    "examples/Flex/index",
+    "examples/Form/index",
+    "examples/Grids/index",
+    "examples/Icon/index",
+    "examples/Label/index",
+    "examples/Loadmore/index",
+    "examples/Panel/index",
+    "examples/Progress/index",
+    "examples/Quantity/index",
+    "examples/RedEnvelope/index",
+    "examples/SwiperTab/index",
+    "examples/Swiper/index",
+    "examples/Steps/index",
+    "examples/Switch/index",
+    "examples/Tab/index",
+    "examples/Toptips/index",
+    "examples/Text/index",
+    "examples/Toast/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "ModelUI",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f9f9f9"
+  },
+  "debug": true
+}

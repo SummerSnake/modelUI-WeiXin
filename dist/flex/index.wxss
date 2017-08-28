@@ -1,0 +1,19 @@
+.model_flex {
+  display: flex;
+}
+
+.model_flex_item {
+  flex: 1;
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+}
+
+.model_flex .placeholder {
+  margin: 5px;
+  padding: 0 10px;
+  background-color: #ebebeb;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #cfcfcf;
+}

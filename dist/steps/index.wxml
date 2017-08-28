@@ -1,0 +1,15 @@
+<template name="model_steps">
+  <view class="model_steps model_steps_{{ type == 'vertical' ? 'vsteps' : 'steps' }} model_steps_{{ steps.length }} {{ className }}">
+    <view
+      wx:for="{{ steps }}" wx:for-item="step" wx:key="unique" wx:for-index="index"
+      class="model_steps_step {{ hasDesc ? 'model_steps_step_db-title' : '' }} {{ index == 0 ? 'model_steps_step_first-child' : '' }} {{ index == steps.length - 1 ? 'model_steps_step_last_child' : '' }} {{ step.done ? 'model_steps_step_done' : '' }} {{ step.current ? 'model_steps_step_cur' : '' }}"
+    >
+      <view class="model_steps_title">{{ step.text }}</view>
+      <view wx:if="{{ hasDesc && step.desc }}" class="model_steps_title model_steps_title_desc">{{ step.desc }}</view>
+      <view class="model_steps_icons">
+        <view class="model_steps_circle"></view>
+      </view>
+      <view class="model_steps_line"></view>
+    </view>
+  </view>
+</template>

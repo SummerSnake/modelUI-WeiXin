@@ -1,0 +1,25 @@
+<view class="container">
+
+  <image class="logo" src="./images/cat.jpg"></image>
+
+  <view class="model_page_bd">
+    <block wx:for="{{list}}" wx:key="{{item.id}}">
+      <view class="kind_list_item">
+        <view id="{{item.id}}" class="collapse_flex kind_list_item_hd {{item.open ? 'kind_list_item_hd_show' : ''}}" bindtap="kindToggle">
+          <view class="model_flex_item">{{item.name}}</view>
+          <image class="kind_list_img" src="images/icon_nav_{{item.id}}.png"></image>
+        </view>
+        <view class="kind_list_item_bd {{item.open ? 'kind_list_item_bd_show' : ''}}">
+          <view class="collapse_cells {{item.open ? 'collapse_cells_show' : ''}}">
+            <block wx:for="{{item.pages}}" wx:for-item="page" wx:key="*item">
+              <navigator url="../{{page}}/index" class="collapse_cell collapse_cell_access">
+                <view class="model_flex_item">{{page}}</view>
+                <view class="collapse_cell_ft collapse_cell_ft_in_access"></view>
+              </navigator>
+            </block>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

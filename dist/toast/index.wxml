@@ -1,0 +1,4 @@
+<template name="model_toast">
+  <view class="model_toast" wx:if="{{ modelToast.show }}" 
+  bindtap="clearModelToast">{{ modelToast.title }}</view>
+</template>

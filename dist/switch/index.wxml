@@ -1,0 +1,15 @@
+<template name="model_switch">
+  <view
+    class="model_switch model_switch_{{ checked ? 'on' : 'off' }} {{ disabled ? 'model_swtich_disabled' : '' }}"
+    data-checked="{{ checked }}"
+    data-loading="{{ loading }}"
+    data-disabled="{{ disabled }}"
+    data-component-id="{{ componentId }}"
+    bindtap="_handleModelSwitchChange"
+  >
+    <view class="model_switch_circle">
+      <view hidden="{{ !loading }}" class="model_switch_loading"></view>
+    </view>
+    <view class="model_switch_bg"></view>
+  </view>
+</template>
