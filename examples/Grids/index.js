@@ -3,47 +3,47 @@ Page({
     list: [
       {
         name: 'button',
-        url: '../btn/index',
+        url: '../Button/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'badge',
-        url: '../badge/index',
+        url: '../Badge/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'card',
-        url: '../card/index',
+        url: '../Card/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'dialog',
-        url: '../dialog/index',
+        url: '../Dialog/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'icon',
-        url: '../icon/index',
+        url: '../Icon/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'label',
-        url: '../label/index',
+        url: '../Label/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'panel',
-        url: '../panel/index',
+        url: '../Panel/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'switch',
-        url: '../switch/index',
+        url: '../Switch/index',
         imgSrc: './icon_01.png'
       },
       {
         name: 'cell',
-        url: '../cell/index',
+        url: '../Cell/index',
         imgSrc: './icon_01.png'
       }
     ]
